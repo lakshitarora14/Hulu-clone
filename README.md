@@ -1,3 +1,11 @@
+## HULU Clone Web App
+![image](https://user-images.githubusercontent.com/44324506/150946214-0b4716cf-88a5-40ba-9f61-a8e263f8e49a.png)
+Hulu is an American streaming platform. Launched on October 29, 2007, it offers a library of films and television series from networks such as CBS, ABC, NBC, or FX, as well as Hulu original content. Hulu is majority-owned by The Walt Disney Company, with Comcast's NBCUniversal holding a minority stake.
+
+This app is responsive and suports all screen sizes.
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
