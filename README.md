@@ -1,16 +1,38 @@
 ## HULU Clone Web App
+
+Live Project : https://hulu-clone-1-umber.vercel.app/
 ![image](https://user-images.githubusercontent.com/44324506/150946214-0b4716cf-88a5-40ba-9f61-a8e263f8e49a.png)
+
 Hulu is an American streaming platform. Launched on October 29, 2007, it offers a library of films and television series from networks such as CBS, ABC, NBC, or FX, as well as Hulu original content. Hulu is majority-owned by The Walt Disney Company, with Comcast's NBCUniversal holding a minority stake.
 
-This app is responsive and suports all screen sizes.
+![image](https://user-images.githubusercontent.com/44324506/151646666-17b5b7a5-e16c-474d-9dfa-cfa7b19d646a.png) | ![image](https://user-images.githubusercontent.com/44324506/151646739-4f3e83a1-d791-487c-8bed-78d2cfcc6b56.png)
 
+![image](https://user-images.githubusercontent.com/44324506/151646754-90641932-5e61-4144-a1ae-561d388ff644.png)
 
-
+This app is fully responsive website which uses tmdb database to fetch results, made using next.js, react.js, and tailwiwnd css.
+The layout changes as the screen sizes increases from 1 column grid in movile device to 2 column grid on tablets, then to 3 column grid on desktops. The layout changes from grid to flex if we encounter very big screens like 4k display.
+#### Installation and Getting Started
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+1. Clone the application
 
-First, run the development server:
+```
+git clone https://github.com/lakshitarora14/Hulu-clone.git
+```
+2. Then install the dependencies
+
+```
+npm install or yarn 
+```
+3. Create a local environment file by creating a file as .env.local and have these inside as keys
+
+```
+API_KEY = xxxxxxxxxxxxx_xxxxxx
+```
+This clone uses a tmdb api, The api key can be requested here https://www.themoviedb.org/documentation/api
+More about the API can be discovered over here https://www.themoviedb.org/documentation/api/discover
+
+4. Run the development server:
 
 ```bash
 npm run dev
@@ -19,24 +41,3 @@ yarn dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
